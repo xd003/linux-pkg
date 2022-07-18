@@ -27,6 +27,9 @@ flatpak install flathub com.github.rafostar.Clapper
 #Enable Display Manager
 sudo systemctl enable ly
 
+#Clean config directory
+sudo rm -rf $HOME/.config/hypr
+
 #Copy all configs
 mkdir -p $HOME/hypr && wget https://staging.xd003.workers.dev/0:/Dumps/hyprland.tar.gz -P $HOME
 tar -xzvf $HOME/hyprland.tar.gz -C $HOME/hypr && rm -rf $HOME/hyprland.tar.gz
