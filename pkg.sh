@@ -7,10 +7,14 @@ sudo pacman -Syu
 sudo pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com
 sudo pacman-key --lsign-key FBA220DFC880C036
 sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst' && echo
-cat << EOF
+echo && cat << EOF
 [chaotic-aur]
 Include = /etc/pacman.d/chaotic-mirrorlist
 EOF
-echo "Copy the above text & paste in /etc/pacman.conf , also uncomment parallel downloads(10) & multilib"
-read -n 1 -s -r -p "Press any key to continue"
+echo && echo "Copy the above text & paste in /etc/pacman.conf , also uncomment parallel downloads(10) & multilib"
+read -n 1 -s -r -p "Press any key to continue: "
 sudo nano /etc/pacman.conf
+
+#Install Pacman packages
+sudo pacman -Syu paru firefox gnome-keyring seahorse libsecret telegram-desktop flatpak xf86-video-intel xarchiver thunar thunar-archive-plugin noto-fonts noto-fonts-cjk ttf-dejavu ttf-liberation noto-fonts-emoji \
+swaybg swayidle  swaylock wlroots wl-clipboard waybar wofi foot mako grim slurp wf-recorder light yad thunar geany mpv mpd mpc viewnior imagemagick xfce-polkit xorg-xwayland
