@@ -17,7 +17,7 @@ sudo nano /etc/pacman.conf
 
 #Install Pacman & AUR packages
 sudo pacman -Syu paru firefox gnome-keyring seahorse libsecret telegram-desktop flatpak xf86-video-intel xarchiver thunar thunar-archive-plugin noto-fonts noto-fonts-cjk ttf-dejavu ttf-liberation noto-fonts-emoji \
-swaybg swayidle  swaylock wlroots wl-clipboard waybar wofi foot mako grim slurp wf-recorder light yad geany mpv mpd mpc viewnior imagemagick xorg-xwayland
+swaybg swayidle  swaylock wlroots wl-clipboard waybar wofi foot mako grim slurp wf-recorder light yad geany mpv mpd mpc viewnior imagemagick xorg-xwayland pavucontrol xdg-user-dirs
 paru -S 7-zip termius vscodium-bin 1password freedownloadmanager powerpill \
 hyprland-bin ly wlogout xfce-polkit
 
