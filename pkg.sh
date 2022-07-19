@@ -38,3 +38,8 @@ sudo mkdir -p /usr/local/share/fonts && sudo cp -r $HOME/hypr/fonts/* /usr/local
 sudo mkdir -p /usr/share/themes && sudo cp -r $HOME/hypr/gtk/theme/* /usr/share/themes/
 sudo mkdir -p /usr/share/icons && sudo cp -r $HOME/hypr/gtk/icons/* /usr/share/icons/
 sudo cp -r $HOME/hypr/gtk/cursor/* /usr/share/icons/
+
+#MPV
+mkdir -p $HOME/.config/mpv
+wget https://raw.githubusercontent.com/hl2guide/better-mpv-config/master/mpv.conf -O $HOME/.config/mpv/mpv.conf
+wget https://raw.githubusercontent.com/hl2guide/better-mpv-config/master/input.conf -O $HOME/.config/mpv/input.conf
