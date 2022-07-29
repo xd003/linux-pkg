@@ -22,7 +22,7 @@ paru -S 7-zip termius vscodium-bin 1password freedownloadmanager powerpill vento
 hyprland-bin ly xfce-polkit
 
 #Flatpak package Install
-flatpak install flathub com.github.rafostar.Clapper
+#flatpak install flathub com.github.rafostar.Clapper
 
 #Enable Display Manager
 sudo systemctl enable ly
