@@ -16,30 +16,11 @@ read -n 1 -s -r -p "Press any key to continue: "
 sudo nano /etc/pacman.conf
 
 #Install Pacman & AUR packages
-sudo pacman -Syu paru firefox geany xdg-user-dirs gnome-keyring seahorse libsecret telegram-desktop flatpak xf86-video-intel intel-media-driver libva-intel-driver libva-utils intel-gpu-tools xarchiver celluloid-git thunar thunar-archive-plugin noto-fonts noto-fonts-cjk ttf-dejavu ttf-liberation noto-fonts-emoji papirus-icon-theme \
-swaybg swayidle  swaylock wlroots wl-clipboard waybar wofi foot mako grim slurp wf-recorder light yad mpv mpd mpc viewnior imagemagick xorg-xwayland pavucontrol qt5-wayland
-paru -S 7-zip termius vscodium-bin 1password freedownloadmanager powerpill ventoy-bin \
-hyprland-bin ly xfce-polkit
+sudo pacman -Syu paru firefox gedit xdg-user-dirs gnome-keyring seahorse libsecret telegram-desktop flatpak xf86-video-intel intel-media-driver libva-intel-driver libva-utils intel-gpu-tools xarchiver celluloid-git thunar thunar-archive-plugin noto-fonts noto-fonts-cjk ttf-dejavu ttf-liberation noto-fonts-emoji papirus-icon-theme \
+paru -S 7-zip termius vscodium-bin 1password freedownloadmanager powerpill ventoy-bin ly \
 
 #Flatpak package Install
 #flatpak install flathub com.github.rafostar.Clapper
 
 #Enable Display Manager
 sudo systemctl enable ly
-
-#Clean config directory
-sudo rm -rf $HOME/.config/hypr
-
-#Copy all configs
-mkdir -p $HOME/hypr && wget https://staging.xd003.workers.dev/0:/Dumps/hyprland.tar.gz -P $HOME
-tar -xzvf $HOME/hyprland.tar.gz -C $HOME/hypr && rm -rf $HOME/hyprland.tar.gz
-mkdir -p ~/.config/hypr && cp -r $HOME/hypr/dotfiles/dark/* ~/.config/hypr/
-sudo mkdir -p /usr/local/share/fonts && sudo cp -r $HOME/hypr/fonts/* /usr/local/share/fonts/ && sudo fc-cache -fv
-sudo mkdir -p /usr/share/themes && sudo cp -r $HOME/hypr/gtk/theme/* /usr/share/themes/
-sudo mkdir -p /usr/share/icons && sudo cp -r $HOME/hypr/gtk/icons/* /usr/share/icons/
-sudo cp -r $HOME/hypr/gtk/cursor/* /usr/share/icons/
-
-#MPV
-mkdir -p $HOME/.config/mpv
-wget https://raw.githubusercontent.com/hl2guide/better-mpv-config/master/mpv.conf -O $HOME/.config/mpv/mpv.conf
-wget https://raw.githubusercontent.com/hl2guide/better-mpv-config/master/input.conf -O $HOME/.config/mpv/input.conf
