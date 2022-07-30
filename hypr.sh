@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #Install Pacman & Aur Packages
-sudo pacman -Syu swaybg swayidle  swaylock wlroots wl-clipboard waybar wofi foot mako grim slurp wf-recorder light yad mpv mpd mpc viewnior imagemagick xorg-xwayland pavucontrol qt5-wayland
+sudo pacman -Syu swaybg swayidle  swaylock wlroots wl-clipboard waybar wofi foot mako grim slurp wf-recorder light yad mpv mpd mpc viewnior imagemagick xorg-xwayland qt5-wayland
 paru -S hyprland-bin xfce-polkit
 
 #Clean config directory
