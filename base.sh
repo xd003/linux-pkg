@@ -13,7 +13,7 @@ read -n 1 -s -r -p "Press any key to continue: "
 sudo nano /etc/pacman.conf
 
 #Install Pacman & AUR packages
-sudo pacman -Syu paru firefox gedit viewnior xdg-user-dirs gnome-keyring seahorse libsecret telegram-desktop flatpak xf86-video-intel intel-media-driver libva-intel-driver libva-utils intel-gpu-tools xarchiver celluloid-git thunar thunar-archive-plugin thunar-volman noto-fonts noto-fonts-cjk ttf-dejavu ttf-liberation noto-fonts-emoji ttf-roboto papirus-icon-theme kvantum qt5ct lxappearance 
+sudo pacman -Syu paru firefox geany viewnior xdg-user-dirs gnome-keyring seahorse libsecret telegram-desktop flatpak xf86-video-intel intel-media-driver libva-intel-driver libva-utils intel-gpu-tools xarchiver celluloid-git thunar thunar-archive-plugin thunar-volman noto-fonts noto-fonts-cjk ttf-dejavu ttf-liberation noto-fonts-emoji ttf-roboto papirus-icon-theme kvantum qt5ct lxappearance 
 paru -S 7-zip termius vscodium-bin 1password freedownloadmanager powerpill ventoy-bin ly nerd-fonts-jetbrains-mono orchis-theme noise-suppression-for-voice \
 
 #Flatpak package Install
