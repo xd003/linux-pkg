@@ -5,3 +5,6 @@ sudo pacman -S bspwm xdo sxhkd polybar alacritty xfce4-power-manager rofi jgmenu
 paru -S ttf-icomoon-feather xbanish
 
 git clone https://github.com/baskerville/xqp $HOME && cd $HOME/xqp && sudo make && sudo make install && rm -rf $HOME/xqp
+
+#If need to lock system after device sleeps
+#sudo pacman -S xss-lock
