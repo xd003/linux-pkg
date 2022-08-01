@@ -16,6 +16,9 @@ sudo nano /etc/pacman.conf
 sudo pacman -Syu paru firefox geany viewnior xdg-user-dirs gnome-keyring seahorse libsecret telegram-desktop flatpak xf86-video-intel intel-media-driver libva-intel-driver libva-utils intel-gpu-tools xarchiver celluloid-git thunar thunar-archive-plugin thunar-volman noise-suppression-for-voice noto-fonts noto-fonts-cjk ttf-dejavu ttf-liberation noto-fonts-emoji ttf-roboto papirus-icon-theme kvantum qt5ct lxappearance 
 paru -S 7-zip termius vscodium-bin 1password freedownloadmanager powerpill ventoy-bin ly nerd-fonts-jetbrains-mono orchis-theme nextdns
 
+#Start NextDNS Service
+sudo nextdns install -config bd435d -report-client-info -auto-activate
+
 #Flatpak package Install
 #flatpak install flathub com.github.rafostar.Clapper
 
