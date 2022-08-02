@@ -24,10 +24,13 @@ paru -S 7-zip termius vscodium-bin 1password freedownloadmanager powerpill vento
 #Start NextDNS Service
 sudo nextdns install -config bd435d -report-client-info -auto-activate
 
-#Flatpak package Install
-#flatpak install flathub com.github.rafostar.Clapper
-
 #Enable Display Manager
 sudo systemctl enable ly
 
 git clone https://github.com/baskerville/xqp $HOME && cd $HOME/xqp && sudo make && sudo make install && rm -rf $HOME/xqp
+
+#Flatpak package Install
+#flatpak install flathub com.github.rafostar.Clapper
+
+#Install polkit if on pure arch base
+#paru -S xfce-polkit
