@@ -15,11 +15,11 @@ sudo nano /etc/pacman.conf
 #Install Pacman & AUR packages
 sudo pacman -Syu paru firefox geany viewnior xdg-user-dirs gnome-keyring seahorse libsecret telegram-desktop flatpak xarchiver celluloid-git thunar thunar-archive-plugin thunar-volman \
 xf86-video-intel intel-media-driver libva-intel-driver libva-utils intel-gpu-tools \
-noise-suppression-for-voice exa bat duf zsh zsh-theme-powerlevel10k \
+noise-suppression-for-voice exa bat duf zsh zsh \
 noto-fonts noto-fonts-cjk ttf-dejavu ttf-liberation noto-fonts-emoji ttf-roboto papirus-icon-theme kvantum qt5ct lxappearance \
 bspwm sxhkd polybar alacritty xdo xfce4-power-manager rofi jgmenu dunst pavucontrol dmenu nitrogen flameshot xsetroot xprintidle xss-lock i3lock maim
 
-paru -S 7-zip termius vscodium-bin 1password freedownloadmanager powerpill ventoy-bin ly nerd-fonts-jetbrains-mono orchis-theme nextdns ttf-icomoon-feather xbanish zinit-git
+paru -S 7-zip termius vscodium-bin 1password freedownloadmanager powerpill ventoy-bin ly nerd-fonts-jetbrains-mono orchis-theme nextdns ttf-icomoon-feather xbanish
 
 #Start NextDNS Service
 sudo nextdns install -config bd435d -report-client-info -auto-activate
@@ -28,6 +28,7 @@ sudo nextdns install -config bd435d -report-client-info -auto-activate
 sudo systemctl enable ly
 
 git clone https://github.com/baskerville/xqp $HOME && cd $HOME/xqp && sudo make && sudo make install && rm -rf $HOME/xqp
+bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
 
 #Flatpak package Install
 #flatpak install flathub com.github.rafostar.Clapper
