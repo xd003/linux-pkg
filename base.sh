@@ -29,7 +29,7 @@ sudo systemctl enable ly
 
 git clone https://github.com/baskerville/xqp $HOME && cd $HOME/xqp && sudo make && sudo make install && rm -rf $HOME/xqp
 bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
-mkdir -p $HOME/.cache/zsh
+mkdir -p $HOME/.cache/zsh $XDG_STATE_HOME/zsh
 
 #Flatpak package Install
 #flatpak install flathub com.github.rafostar.Clapper
