@@ -27,7 +27,7 @@ sudo nextdns install -config bd435d -report-client-info -auto-activate
 #Enable Display Manager
 sudo systemctl enable ly
 
-git clone https://github.com/baskerville/xqp $HOME && cd $HOME/xqp && sudo make && sudo make install && rm -rf $HOME/xqp
+mkdir $HOME/qqp && git clone https://github.com/baskerville/xqp $HOME/xqp && cd $HOME/xqp && sudo make && sudo make install && rm -rf $HOME/xqp
 bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
 mkdir -p $HOME/.cache/zsh
 
