@@ -8,12 +8,12 @@ echo && cat << EOF
 [chaotic-aur]
 Include = /etc/pacman.d/chaotic-mirrorlist
 EOF
-echo && echo "Copy the above text & paste in /etc/pacman.conf , also uncomment parallel downloads(10) & multilib"
+echo && echo "Copy the above text & paste in /etc/pacman.conf , also uncomment parallel downloads(15) & multilib"
 read -n 1 -s -r -p "Press any key to continue: "
 sudo nano /etc/pacman.conf
 
 #Install Pacman & AUR packages
-sudo pacman -Syu paru firefox viewnior xdg-user-dirs gnome-keyring seahorse libsecret telegram-desktop flatpak xarchiver celluloid-git thunar thunar-archive-plugin thunar-volman \
+sudo pacman -Syu paru firefox viewnior xdg-user-dirs gnome-keyring seahorse libsecret telegram-desktop flatpak xarchiver celluloid-git thunar thunar-archive-plugin thunar-volman gvfs \
 xf86-video-intel intel-media-driver libva-intel-driver libva-utils intel-gpu-tools grub-customizer \
 noise-suppression-for-voice exa bat duf zsh reflector zathura zathura-pdf-mupdf neovim \
 noto-fonts noto-fonts-cjk ttf-dejavu ttf-liberation noto-fonts-emoji ttf-roboto papirus-icon-theme kvantum qt5ct lxappearance \
