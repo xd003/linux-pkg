@@ -38,4 +38,4 @@ mkdir -p $HOME/.cache/zsh
 #flatpak install flathub com.github.rafostar.Clapper
 
 #Install polkit if on pure arch base
-#paru -S xfce-polkit
+paru -S xfce-polkit
