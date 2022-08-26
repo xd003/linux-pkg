@@ -1,3 +1,4 @@
+
 #!/usr/bin/env bash
 
 #Add Chaotic AUR
@@ -16,7 +17,7 @@ sudo nano /etc/pacman.conf
 sudo pacman -Syu paru firefox viewnior xdg-user-dirs gnome-keyring seahorse libsecret telegram-desktop flatpak xarchiver celluloid-git thunar thunar-archive-plugin thunar-volman gvfs ranger \
 xf86-video-intel intel-media-driver libva-intel-driver libva-utils intel-gpu-tools grub-customizer \
 noise-suppression-for-voice exa bat duf zsh reflector zathura zathura-pdf-mupdf neovim wget aria2 fd \
-noto-fonts noto-fonts-cjk ttf-dejavu ttf-liberation noto-fonts-emoji ttf-roboto papirus-icon-theme kvantum qt5ct lxappearance \
+noto-fonts noto-fonts-cjk ttf-dejavu ttf-liberation noto-fonts-emoji papirus-icon-theme kvantum qt5ct lxappearance \
 bspwm sxhkd polybar alacritty xdo xfce4-power-manager rofi jgmenu dunst pavucontrol dmenu nitrogen flameshot xorg-xsetroot xprintidle xss-lock i3lock-color maim
 
 paru -S 7-zip termius vscodium-bin 1password freedownloadmanager ventoy-bin ly nerd-fonts-jetbrains-mono orchis-theme nextdns ttf-icomoon-feather xbanish anydesk-bin touchegg xtitle eww-git
