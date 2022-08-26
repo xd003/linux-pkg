@@ -23,7 +23,7 @@ bspwm sxhkd polybar alacritty xdo xfce4-power-manager rofi jgmenu dunst pavucont
 paru -S 7-zip termius vscodium-bin 1password freedownloadmanager ventoy-bin ly nerd-fonts-jetbrains-mono orchis-theme nextdns ttf-icomoon-feather xbanish anydesk-bin touchegg xtitle eww-git
 
 #Start NextDNS Service
-sudo nextdns install -config bd435d -report-client-info -auto-activate
+sudo nextdns install -config 9897ea -report-client-info -auto-activate
 
 #Enable Display Manager
 sudo systemctl enable ly
