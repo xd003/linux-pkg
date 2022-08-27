@@ -24,10 +24,11 @@ paru -S 7-zip termius vscodium-bin 1password freedownloadmanager ventoy-bin ly n
 #Start NextDNS Service
 sudo nextdns install -config 9897ea -report-client-info -auto-activate
 
-#Enable Display Manager
+#Enable Systemd Services
 sudo systemctl enable ly
 sudo systemctl enable touchegg.service
-sudo systemctl start touchegg
+systemctl enable betterlockscreen@xd003
+
 
 mkdir $HOME/xqp && git clone https://github.com/baskerville/xqp $HOME/xqp && cd $HOME/xqp && sudo make && sudo make install && rm -rf $HOME/xqp
 bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
