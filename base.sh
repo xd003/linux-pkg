@@ -14,7 +14,7 @@ sudo nano /etc/pacman.conf
 
 #Install Pacman & AUR packages
 sudo pacman -Syu --noconfirm paru firefox viewnior xdg-user-dirs gnome-keyring seahorse libsecret telegram-desktop flatpak xarchiver celluloid-git thunar thunar-archive-plugin thunar-volman gvfs ranger \
-xf86-video-intel intel-media-driver libva-intel-driver libva-utils intel-gpu-tools grub-customizer \
+libva-utils intel-gpu-tools grub-customizer \
 noise-suppression-for-voice exa bat duf zsh reflector zathura zathura-pdf-mupdf neovim wget aria2 fd ffmpeg \
 noto-fonts noto-fonts-cjk ttf-dejavu ttf-liberation noto-fonts-emoji papirus-icon-theme kvantum qt5ct lxappearance \
 bspwm sxhkd polybar alacritty xdo xfce4-power-manager rofi jgmenu dunst pavucontrol pamixer dmenu nitrogen flameshot xorg-xsetroot xprintidle maim
