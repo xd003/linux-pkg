@@ -17,7 +17,7 @@ sudo pacman -Syu --noconfirm paru firefox viewnior xdg-user-dirs gnome-keyring s
 libva-utils intel-gpu-tools grub-customizer \
 noise-suppression-for-voice exa bat duf zsh reflector zathura zathura-pdf-mupdf neovim wget aria2 fd ffmpeg \
 noto-fonts noto-fonts-cjk ttf-dejavu ttf-liberation noto-fonts-emoji papirus-icon-theme kvantum qt5ct lxappearance \
-bspwm sxhkd polybar alacritty xdo xfce4-power-manager rofi jgmenu dunst pavucontrol pamixer dmenu nitrogen flameshot xorg-xsetroot xprintidle maim python-gobject
+bspwm sxhkd polybar alacritty xdo xfce4-power-manager rofi jgmenu dunst pavucontrol pamixer dmenu nitrogen flameshot xorg-xsetroot xprintidle maim python-gobject neofetch
 
 paru -S 7-zip termius vscodium-bin 1password freedownloadmanager ventoy-bin ly nerd-fonts-jetbrains-mono orchis-theme nextdns ttf-icomoon-feather xbanish anydesk-bin touchegg betterlockscreen xtitle eww-git
 
