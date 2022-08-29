@@ -30,6 +30,6 @@ sudo systemctl enable touchegg.service
 systemctl enable betterlockscreen@xd003
 
 mkdir $HOME/xqp && git clone https://github.com/baskerville/xqp $HOME/xqp && cd $HOME/xqp && sudo make && sudo make install && rm -rf $HOME/xqp
-betterlockscreen -u /home/xd003/Pictures/forest.png
+betterlockscreen -u /home/xd003/Pictures/Wallpapers/forest.png
 bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
 mkdir -p $HOME/.cache/zsh
