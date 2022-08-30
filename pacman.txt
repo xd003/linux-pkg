@@ -39,3 +39,13 @@ aria2
 fd
 ffmpeg
 plocate
+
+noto-fonts
+noto-fonts-cjk
+ttf-dejavu
+ttf-liberation
+noto-fonts-emoji
+papirus-icon-theme
+kvantum
+qt5ct
+lxappearance
