@@ -15,7 +15,7 @@ sudo nano /etc/pacman.conf
 #Install Pacman & AUR packages
 sudo pacman -Syu --noconfirm paru firefox viewnior xdg-user-dirs xdg-utils gnome-keyring seahorse libsecret telegram-desktop flatpak xarchiver celluloid-git thunar thunar-archive-plugin thunar-volman gvfs ranger \
 libva-utils intel-gpu-tools grub-customizer \
-noise-suppression-for-voice exa bat duf zsh reflector zathura zathura-pdf-mupdf neovim wget aria2 fd ffmpeg \
+noise-suppression-for-voice exa bat duf zsh reflector zathura zathura-pdf-mupdf neovim wget aria2 fd ffmpeg plocate \
 noto-fonts noto-fonts-cjk ttf-dejavu ttf-liberation noto-fonts-emoji papirus-icon-theme kvantum qt5ct lxappearance \
 bspwm sxhkd polybar alacritty xdo xfce4-power-manager rofi jgmenu dunst pavucontrol pamixer dmenu nitrogen flameshot xorg-xsetroot xprintidle maim python-gobject neofetch fontconfig freetype2 xorg-mkfontscale xorg-mkfontdir xf86-input-libinput
 
@@ -32,3 +32,4 @@ mkdir $HOME/xqp && git clone https://github.com/baskerville/xqp $HOME/xqp && cd 
 betterlockscreen -u /home/xd003/Pictures/Wallpapers/forest.png
 bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
 mkdir -p $HOME/.cache/zsh
+sudo updatedb
