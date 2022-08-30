@@ -27,6 +27,7 @@ sudo nextdns install -config 9897ea -report-client-info -auto-activate
 sudo systemctl enable ly
 sudo systemctl enable touchegg.service
 systemctl enable betterlockscreen@xd003
+sudo systemctl enable systemd-oomd
 
 mkdir $HOME/xqp && git clone https://github.com/baskerville/xqp $HOME/xqp && cd $HOME/xqp && sudo make && sudo make install && rm -rf $HOME/xqp
 betterlockscreen -u /home/xd003/Pictures/Wallpapers/forest.png
