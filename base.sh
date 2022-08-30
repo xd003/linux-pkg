@@ -17,7 +17,7 @@ sudo pacman -Syu --noconfirm paru firefox viewnior xdg-user-dirs xdg-utils gnome
 libva-utils intel-gpu-tools grub-customizer \
 noise-suppression-for-voice exa bat duf unzip zsh reflector zathura zathura-pdf-mupdf neovim wget aria2 fd ffmpeg plocate \
 noto-fonts noto-fonts-cjk ttf-dejavu ttf-liberation noto-fonts-emoji papirus-icon-theme kvantum qt5ct lxappearance \
-bspwm sxhkd polybar light libxcb libpulse libnl alacritty xdo xfce4-power-manager rofi jgmenu dunst pavucontrol dmenu nitrogen flameshot xorg-xsetroot xprintidle maim python-gobject neofetch mpv fontconfig freetype2 xorg-mkfontscale xorg-mkfontdir xf86-input-libinput
+bspwm sxhkd polybar light libxcb libpulse libnl alacritty xdo xfce4-power-manager rofi jgmenu dunst pavucontrol dmenu nitrogen flameshot xorg-xsetroot xprintidle maim python-gobject gparted neofetch mpv fontconfig freetype2 xorg-mkfontscale xorg-mkfontdir xf86-input-libinput
 
 paru -S 7-zip termius vscodium-bin 1password freedownloadmanager ventoy-bin ly nerd-fonts-jetbrains-mono orchis-theme nextdns ttf-icomoon-feather xbanish anydesk-bin touchegg betterlockscreen xtitle ttf-ms-fonts devour ksuperkey
 #Start NextDNS Service
