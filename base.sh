@@ -30,7 +30,7 @@ systemctl enable betterlockscreen@xd003
 sudo systemctl enable systemd-oomd
 
 mkdir $HOME/xqp && git clone https://github.com/baskerville/xqp $HOME/xqp && cd $HOME/xqp && sudo make && sudo make install && rm -rf $HOME/xqp
-betterlockscreen -u /home/xd003/Pictures/Wallpapers/forest.png
+## wget WALLS_URL && betterlockscreen -u /home/xd003/Pictures/Wallpapers/forest.png
 bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 mkdir -p $HOME/.cache/zsh
