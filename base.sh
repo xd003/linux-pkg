@@ -19,7 +19,7 @@ noise-suppression-for-voice exa bat duf unzip zsh reflector zathura zathura-pdf-
 noto-fonts noto-fonts-cjk ttf-dejavu ttf-liberation noto-fonts-emoji papirus-icon-theme kvantum qt5ct lxappearance \
 bspwm sxhkd polybar light libxcb libpulse libnl alacritty xdo xfce4-power-manager rofi jgmenu dunst pavucontrol dmenu nitrogen flameshot xorg-xsetroot xprintidle maim python-gobject gparted neofetch mpv fontconfig freetype2 xorg-mkfontscale xorg-mkfontdir xf86-input-libinput simplescreenrecorder
 
-paru -S 7-zip termius 1password freedownloadmanager ventoy-bin ly orchis-theme nextdns ttf-icomoon-feather xbanish anydesk-bin touchegg betterlockscreen xtitle ttf-ms-fonts devour ksuperkey xfce-polkit
+paru -S 7-zip termius 1password freedownloadmanager ventoy-bin ly orchis-theme nextdns ttf-icomoon-feather xbanish anydesk-bin touchegg betterlockscreen xtitle ttf-ms-fonts devour ksuperkey xfce-polkit ttf-font-logos
 #Start NextDNS Service
 sudo nextdns install -config 9897ea -report-client-info -auto-activate
 
