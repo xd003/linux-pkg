@@ -7,7 +7,8 @@ flatpak
 celluloid-git
 mpv
 simplescreenrecorder
-parcellite
+clipit
+xclip
 ranger
 thunar
 thunar-archive-plugin
