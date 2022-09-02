@@ -9,6 +9,8 @@ libsecret
 telegram-desktop
 flatpak
 celluloid-git
+mpv
+simplescreenrecorder
 ranger
 thunar
 thunar-archive-plugin
@@ -22,12 +24,16 @@ intel-media-driver
 vulkan-intel
 libva-utils
 intel-gpu-tools 
+xf86-input-libinput 
 
 grub-customizer
 noise-suppression-for-voice
+neofetch
 exa
 bat
 duf
+fd
+plocate
 unzip
 zsh
 reflector
@@ -36,9 +42,8 @@ zathura-pdf-mupdf
 neovim
 wget
 aria2
-fd
 ffmpeg
-plocate
+gparted
 
 noto-fonts
 noto-fonts-cjk
@@ -49,3 +54,29 @@ papirus-icon-theme
 kvantum
 qt5ct
 lxappearance
+fontconfig
+freetype2
+xorg-mkfontscale
+xorg-mkfontdir 
+
+bspwm
+sxhkd
+polybar
+light
+libxcb
+libpulse
+libnl
+alacritty
+xdo
+xfce4-power-manager
+rofi
+jgmenu
+dunst
+pavucontrol
+dmenu
+nitrogen
+flameshot
+xorg-xsetroot
+xprintidle
+maim
+python-gobject 
