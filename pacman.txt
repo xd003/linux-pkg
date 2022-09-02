@@ -1,22 +1,24 @@
 paru
 firefox
 viewnior
-xdg-user-dirs
-xdg-utils
-gnome-keyring
-seahorse
-libsecret
 telegram-desktop
+alacritty
 flatpak
 celluloid-git
 mpv
 simplescreenrecorder
+copyq
 ranger
 thunar
 thunar-archive-plugin
 thunar-volman
 xarchiver
 gvfs
+xdg-user-dirs
+xdg-utils
+gnome-keyring
+seahorse
+libsecret
 
 mesa
 libva-intel-driver
@@ -66,7 +68,6 @@ light
 libxcb
 libpulse
 libnl
-alacritty
 xdo
 xfce4-power-manager
 rofi
