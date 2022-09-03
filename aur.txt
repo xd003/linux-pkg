@@ -1,1 +1,6 @@
-
+nextdns
+ttf-icomoon-feather
+devour
+ksuperkey
+xfce-polkit
+ttf-font-logos
