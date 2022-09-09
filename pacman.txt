@@ -27,7 +27,8 @@ seahorse
 libsecret
 ventoy-bin
 ly
-orchis-theme
+zram-generator
+auto-cpufreq-git
 
 mesa
 libva-intel-driver
@@ -68,6 +69,7 @@ fontconfig
 freetype2
 xorg-mkfontscale
 xorg-mkfontdir 
+orchis-theme
 
 bspwm
 sxhkd
