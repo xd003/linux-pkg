@@ -48,6 +48,8 @@ aria2
 ffmpeg
 gparted
 nextdns
+anydesk-bin
+betterlockscreen
 
 mesa
 libva-intel-driver
@@ -63,6 +65,7 @@ ttf-dejavu
 ttf-liberation
 ttf-icomoon-feather
 ttf-font-logos
+ttf-ms-fonts
 noto-fonts-emoji
 papirus-icon-theme
 kvantum
@@ -85,6 +88,7 @@ xdo
 xfce4-power-manager
 rofi
 networkmanager-dmenu-git
+touchegg
 jgmenu
 dunst
 pavucontrol
