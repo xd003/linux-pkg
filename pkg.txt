@@ -7,6 +7,7 @@ alacritty
 viewnior
 flatpak
 celluloid-git
+devour
 mpv
 simplescreenrecorder
 termius
@@ -55,11 +56,14 @@ wget
 aria2
 ffmpeg
 gparted
+nextdns
 
 noto-fonts
 noto-fonts-cjk
 ttf-dejavu
 ttf-liberation
+ttf-icomoon-feather
+ttf-font-logos
 noto-fonts-emoji
 papirus-icon-theme
 kvantum
@@ -88,6 +92,8 @@ pavucontrol
 dmenu
 nitrogen
 flameshot
+ksuperkey
+xfce-polkit
 xorg-xsetroot
 xprintidle
 maim
