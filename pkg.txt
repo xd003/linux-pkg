@@ -9,7 +9,6 @@ flatpak
 celluloid-git
 devour
 mpv
-simplescreenrecorder
 termius
 clipit
 xclip
@@ -29,7 +28,7 @@ libsecret
 ventoy-bin
 ly
 zram-generator
-auto-cpufreq
+auto-cpufreq-git
 grub-customizer
 noise-suppression-for-voice
 neofetch
