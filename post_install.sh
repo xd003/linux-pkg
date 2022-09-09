@@ -12,14 +12,8 @@ echo && echo "Copy the above text & paste in /etc/pacman.conf , also uncomment p
 read -n 1 -s -r -p "Press any key to continue: "
 sudo nano /etc/pacman.conf
 
-#Install Pacman & AUR packages
-sudo pacman -Syu --noconfirm paru firefox viewnior xdg-user-dirs xdg-utils gnome-keyring seahorse libsecret telegram-desktop flatpak xarchiver celluloid-git thunar thunar-archive-plugin thunar-volman gvfs ranger \
-libva-utils intel-gpu-tools grub-customizer \
-noise-suppression-for-voice exa bat duf unzip zsh reflector zathura zathura-pdf-mupdf neovim wget aria2 fd ffmpeg plocate \
-noto-fonts noto-fonts-cjk ttf-dejavu ttf-liberation noto-fonts-emoji papirus-icon-theme kvantum qt5ct lxappearance \
-bspwm sxhkd polybar light libxcb libpulse libnl alacritty xdo xfce4-power-manager rofi jgmenu dunst pavucontrol dmenu nitrogen flameshot xorg-xsetroot xprintidle maim python-gobject gparted neofetch mpv fontconfig freetype2 xorg-mkfontscale xorg-mkfontdir xf86-input-libinput simplescreenrecorder
+# Install pkg
 
-paru -S 7-zip termius 1password freedownloadmanager ventoy-bin ly orchis-theme nextdns ttf-icomoon-feather xbanish anydesk-bin touchegg betterlockscreen xtitle ttf-ms-fonts devour ksuperkey xfce-polkit ttf-font-logos
 #Start NextDNS Service
 sudo nextdns install -config 9897ea -report-client-info -auto-activate
 
