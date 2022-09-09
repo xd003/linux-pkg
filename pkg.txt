@@ -30,15 +30,6 @@ ventoy-bin
 ly
 zram-generator
 auto-cpufreq-git
-
-mesa
-libva-intel-driver
-intel-media-driver
-vulkan-intel
-libva-utils
-intel-gpu-tools 
-xf86-input-libinput 
-
 grub-customizer
 noise-suppression-for-voice
 neofetch
@@ -57,6 +48,14 @@ aria2
 ffmpeg
 gparted
 nextdns
+
+mesa
+libva-intel-driver
+intel-media-driver
+vulkan-intel
+libva-utils
+intel-gpu-tools 
+xf86-input-libinput 
 
 noto-fonts
 noto-fonts-cjk
