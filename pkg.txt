@@ -5,6 +5,7 @@ freedownloadmanager
 telegram-desktop
 alacritty
 viewnior
+libreoffice-fresh
 flatpak
 celluloid-git
 devour
