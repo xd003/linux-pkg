@@ -37,6 +37,7 @@ exa
 bat
 duf
 fd
+gotop
 plocate
 zsh
 reflector
