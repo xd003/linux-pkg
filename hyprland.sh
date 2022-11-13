@@ -8,11 +8,13 @@ qt5-wayland
 foot
 grim-git
 slurp
+swappy
+imv
+wf-recorder
 pipewire
 wireplumber
 xdg-desktop-portal-wlr
 rofi-lbonn-wayland
 libappindicator-gtk3
-wf-recorder
 copyq
 eww-wayland
