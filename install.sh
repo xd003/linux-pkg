@@ -17,6 +17,16 @@ bash -c "$(curl --fail --show-error --silent --location https://raw.githubuserco
 rm -rf ~/.local/share/nvim && git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 mkdir -p $HOME/.cache/zsh
 
+# Configure Miscellaneous stuffs & install common packages
+sudo usermod -aG video $USER &&
+sudo usermod -aG audio $USER &&
+sudo usermod -aG network $USER &&
+sudo usermod -aG input $USER &&
+sudo reflector --verbose --country India --protocol https --latest 5 --sort rate --save /etc/pacman.d/mirrorlist &&
+paru -S $(cat common.txt) && 
+sudo systemctl enable ly &&
+sudo systemctl enable systemd-oomd &&
+
 # Install Packages
 cat << EOF
 ┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉
@@ -28,11 +38,6 @@ EOF
 echo
 read -e -p "Enter your input : " opt
 echo
-
-sudo reflector --verbose --country India --protocol https --latest 5 --sort rate --save /etc/pacman.d/mirrorlist &&
-paru -S $(cat common.txt) && 
-sudo systemctl enable ly &&
-sudo systemctl enable systemd-oomd &&
 
 case $opt in
 1)
