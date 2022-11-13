@@ -26,6 +26,7 @@ ventoy-bin
 ly
 zram-generator
 grub-customizer
+blueman
 dunst
 pavucontrol
 noise-suppression-for-voice
