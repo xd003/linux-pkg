@@ -47,7 +47,6 @@ ffmpeg
 gparted
 nextdns
 anydesk-bin
-betterlockscreen
 
 mesa
 libva-intel-driver
