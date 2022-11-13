@@ -27,7 +27,6 @@ libsecret
 ventoy-bin
 ly
 zram-generator
-auto-cpufreq-git
 grub-customizer
 noise-suppression-for-voice
 neofetch
