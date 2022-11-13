@@ -25,7 +25,7 @@ paru -S $(cat common.txt) &&
 sudo systemctl enable ly &&
 sudo systemctl enable systemd-oomd &&
 
-# Install Packages
+# Install Uncommon Packages
 cat << EOF
 ┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉
 ┋1) BSPWM (XORG)
