@@ -7,7 +7,6 @@ alacritty
 viewnior
 libreoffice-fresh
 flatpak
-celluloid-git
 devour
 mpv
 termius
