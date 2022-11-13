@@ -3,7 +3,6 @@ firefox
 1password
 freedownloadmanager
 telegram-desktop
-alacritty
 viewnior
 libreoffice-fresh
 flatpak
