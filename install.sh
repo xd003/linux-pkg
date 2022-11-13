@@ -10,7 +10,7 @@ Include = /etc/pacman.d/chaotic-mirrorlist
 EOF
 echo && echo "Copy the above text & paste in /etc/pacman.conf , also uncomment parallel downloads(15) & multilib"
 read -n 1 -s -r -p "Press any key to continue: "
-sudo pacman -Syu nano && sudo nano /etc/pacman.conf
+sudo pacman -Syu nano && sudo nano /etc/pacman.conf && sudo pacman -Syu paru
 
 # Install Zinit, Neovim & Create cache dir
 bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
