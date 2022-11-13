@@ -15,7 +15,6 @@ touchegg
 touche
 jgmenu
 dunst
-pavucontrol
 dmenu
 nitrogen
 flameshot
