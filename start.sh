@@ -12,8 +12,10 @@ echo && echo "Copy the above text & paste in /etc/pacman.conf , also uncomment p
 read -n 1 -s -r -p "Press any key to continue: "
 sudo nano /etc/pacman.conf
 
-# Install Zinit
+# Install Zinit, Neovim & Create cache dir
 bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
+rm -rf ~/.local/share/nvim && git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+mkdir -p $HOME/.cache/zsh
 
 # Install Packages
 cat << EOF
@@ -35,3 +37,6 @@ case $opt in
   paru -S $(cat hyprland.txt)
   ;;
 esac
+
+# Update database for locate command
+sudo updatedb
