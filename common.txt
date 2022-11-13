@@ -71,6 +71,4 @@ qt5ct
 lxappearance
 fontconfig
 freetype2
-xorg-mkfontscale
-xorg-mkfontdir 
 orchis-theme
