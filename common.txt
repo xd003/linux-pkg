@@ -7,8 +7,6 @@ flatpak
 devour
 mpv
 spotify
-spicetify-cli
-spicetify-themes-git
 termius
 copyq
 ranger
