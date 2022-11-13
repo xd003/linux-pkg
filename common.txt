@@ -46,6 +46,7 @@ neovim
 wget
 aria2
 ffmpeg
+xfce-polkit
 gparted
 nextdns
 anydesk-bin
