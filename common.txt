@@ -10,8 +10,7 @@ flatpak
 devour
 mpv
 termius
-clipit
-xclip
+copyq
 ranger
 thunar
 7-zip
