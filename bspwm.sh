@@ -18,7 +18,6 @@ dmenu
 nitrogen
 flameshot
 ksuperkey
-xfce-polkit
 xbanish
 xorg-xsetroot
 xprintidle
