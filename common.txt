@@ -28,6 +28,7 @@ ventoy-bin
 ly
 zram-generator
 grub-customizer
+dunst
 pavucontrol
 noise-suppression-for-voice
 neofetch
