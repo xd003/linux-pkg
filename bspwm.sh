@@ -1,3 +1,5 @@
+xorg-mkfontscale
+xorg-mkfontdir 
 alacritty
 viewnior
 xclip
