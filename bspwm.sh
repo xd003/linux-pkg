@@ -14,7 +14,6 @@ networkmanager-dmenu-git
 touchegg
 touche
 jgmenu
-dunst
 dmenu
 nitrogen
 flameshot
