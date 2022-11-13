@@ -1,3 +1,4 @@
+alacritty
 xclip
 betterlockscreen
 bspwm
