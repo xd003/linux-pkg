@@ -1,3 +1,4 @@
+xf86-input-libinput
 xorg-mkfontscale
 xorg-mkfontdir 
 alacritty
