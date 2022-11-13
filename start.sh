@@ -28,6 +28,6 @@ case $opt in
   paru -S $(cat bspwm.txt)
   ;;
 2)
-  paru -S $(cat hypr.txt)
+  paru -S $(cat hyprland.txt)
   ;;
 esac
