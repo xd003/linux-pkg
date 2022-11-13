@@ -1,4 +1,5 @@
 alacritty
+viewnior
 xclip
 betterlockscreen
 bspwm
