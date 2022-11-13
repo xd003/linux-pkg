@@ -11,3 +11,23 @@ EOF
 echo && echo "Copy the above text & paste in /etc/pacman.conf , also uncomment parallel downloads(15) & multilib"
 read -n 1 -s -r -p "Press any key to continue: "
 sudo nano /etc/pacman.conf
+
+cat << EOF
+┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉
+┋1) BSPWM (XORG)
+┋┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉
+┋2) HYPRLAND (WAYLAND)
+┋┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉
+EOF
+
+echo
+read -e -p "Enter your input : " opt
+echo && paru -S $(cat common.txt) && 
+case $opt in
+1)
+  paru -S $(cat bspwm.txt)
+  ;;
+2)
+  paru -S $(cat hypr.txt)
+  ;;
+esac
