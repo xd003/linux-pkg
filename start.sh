@@ -25,18 +25,20 @@ cat << EOF
 ┋2) HYPRLAND (WAYLAND)
 ┋┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉
 EOF
-
 echo
 read -e -p "Enter your input : " opt
 echo
+
 paru -S $(cat common.txt) && 
 sudo systemctl enable ly &&
-sudo systemctl enable systemd-oomd
+sudo systemctl enable systemd-oomd &&
+
 case $opt in
 1)
   paru -S $(cat bspwm.txt) && 
   sudo systemctl enable touchegg.service &&
-  mkdir $HOME/xqp && git clone https://github.com/baskerville/xqp $HOME/xqp && cd $HOME/xqp && sudo make && sudo make install && rm -rf $HOME/xqp
+  mkdir $HOME/xqp && git clone https://github.com/baskerville/xqp $HOME/xqp && cd $HOME/xqp && sudo make && sudo make install && rm -rf $HOME/xqp &&
+  systemctl enable betterlockscreen@xd003
   ;;
 2)
   paru -S $(cat hyprland.txt)
