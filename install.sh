@@ -24,6 +24,7 @@ sudo reflector --verbose --country India --protocol https --latest 5 --sort rate
 paru -S $(cat common.txt) && 
 sudo systemctl enable ly &&
 sudo systemctl enable systemd-oomd &&
+sudo systemctl enable bluetooth &&
 
 # Install Uncommon Packages
 cat << EOF
