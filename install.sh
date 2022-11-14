@@ -25,7 +25,7 @@ paru -S $(cat common.txt) &&
 sudo systemctl enable ly &&
 sudo systemctl enable systemd-oomd &&
 sudo systemctl enable bluetooth &&
-sudo -u xd003 chsh
+sudo chsh -s $(which zsh) && sudo chsh -s $(which zsh) xd003
 
 # Install Uncommon Packages
 cat << EOF
