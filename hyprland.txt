@@ -14,7 +14,7 @@ wf-recorder
 pipewire
 wireplumber
 xdg-desktop-portal-wlr
-rofi-lbonn-wayland
+rofi-lbonn-wayland-git
 libappindicator-gtk3
 copyq
 eww-wayland
