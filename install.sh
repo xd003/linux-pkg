@@ -15,7 +15,7 @@ sudo pacman -Syu nano reflector && sudo nano /etc/pacman.conf && sudo pacman -Sy
 # Install Zinit, Neovim, Create cache dir, add usergroups & enable systemd service
 bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
 rm -rf ~/.local/share/nvim && git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
-mkdir -p $HOME/.cache/zsh
+mkdir -p $HOME/.cache/zsh $HOME/Pictures/Screenshots
 sudo usermod -aG video $USER &&
 sudo usermod -aG audio $USER &&
 sudo usermod -aG network $USER &&
