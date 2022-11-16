@@ -4,6 +4,7 @@ freedownloadmanager
 telegram-desktop
 libreoffice-fresh
 flatpak
+playerctl
 mpv
 spotify
 termius
