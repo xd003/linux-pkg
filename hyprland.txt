@@ -17,4 +17,3 @@ xdg-desktop-portal-wlr
 rofi-lbonn-wayland-git
 libappindicator-gtk3
 copyq
-eww-wayland
