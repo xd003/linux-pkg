@@ -22,7 +22,7 @@ sudo usermod -aG network $USER &&
 sudo usermod -aG input $USER &&
 sudo reflector --verbose --country India --protocol https --latest 5 --sort rate --save /etc/pacman.d/mirrorlist &&
 paru -S $(cat common.txt) && 
-sudo systemctl enable ly &&
+#sudo systemctl enable ly &&
 sudo systemctl enable systemd-oomd &&
 sudo systemctl enable bluetooth &&
 sudo chsh -s $(which zsh) && sudo chsh -s $(which zsh) xd003
