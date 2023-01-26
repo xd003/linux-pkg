@@ -29,6 +29,7 @@ blueman
 dunst
 pavucontrol
 noise-suppression-for-voice
+kernel-modules-hook
 neofetch
 exa
 bat
