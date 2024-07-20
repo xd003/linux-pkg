@@ -9,7 +9,6 @@ echo && cat << EOF
 Include = /etc/pacman.d/chaotic-mirrorlist
 EOF
 echo && echo "Copy the above text & paste in /etc/pacman.conf , also uncomment parallel downloads(15) & multilib"
-sudo nano /etc/pacman.conf &&
 read -n 1 -s -r -p "Press any key to continue: "
 sudo pacman -Syyu micro reflector && sudo nano /etc/pacman.conf && sudo pacman -Syu yay
 
