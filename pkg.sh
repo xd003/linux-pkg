@@ -13,10 +13,12 @@ polkit-gnome
 gnome-keyring
 
 # Display_manager
-gdm 
+gdm
+sudo systemctl enable gdm
 
 # Bluetooth
 bluez
+sudo systemctl enable bluetooth
 
 # File Manager
 nemo
