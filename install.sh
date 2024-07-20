@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # Add Chaotic AUR
-sudo pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com
-sudo pacman-key --lsign-key FBA220DFC880C036
+sudo pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com
+sudo pacman-key --lsign-key 3056513887B78AEB
 sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst' && echo
 echo && cat << EOF
 [chaotic-aur]
@@ -11,7 +11,7 @@ EOF
 echo && echo "Copy the above text & paste in /etc/pacman.conf , also uncomment parallel downloads(15) & multilib"
 sudo nano /etc/pacman.conf &&
 read -n 1 -s -r -p "Press any key to continue: "
-sudo pacman -Syu nano reflector && sudo nano /etc/pacman.conf && sudo pacman -Syu paru
+sudo pacman -Syyu micro reflector && sudo nano /etc/pacman.conf && sudo pacman -Syu yay
 
 # Install Zinit, Neovim, Create cache dir, add usergroups & enable systemd service
 bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
