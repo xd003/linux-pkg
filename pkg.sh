@@ -9,6 +9,7 @@ intel-gpu-tools
 # Gnome
 gnome-shell 
 gnome-control-center
+gnome-tweaks
 polkit-gnome
 gnome-keyring
 
