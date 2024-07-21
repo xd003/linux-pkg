@@ -16,15 +16,16 @@ gnome-keyring
 gdm
 sudo systemctl enable gdm
 
+# Network_manager (already enabled by arch install)
+# networkmanager
+# sudo systemctl enable networkmanager
+
 # Bluetooth
 bluez
 sudo systemctl enable bluetooth
 
-# File Manager
-nemo
-
-# Terminal
+# Apps
 foot
-
-# General Apps
+nemo
 firefox
+mpv
