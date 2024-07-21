@@ -29,6 +29,7 @@ foot
 nemo
 firefox
 mpv
+telegram-desktop
 
 # Fonts/Themes
 papirus-icon-theme
