@@ -34,3 +34,4 @@ telegram-desktop
 
 # Fonts/Themes
 papirus-icon-theme
+orchis-theme
