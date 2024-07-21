@@ -29,3 +29,6 @@ foot
 nemo
 firefox
 mpv
+
+# Fonts/Themes
+papirus-icon-theme
